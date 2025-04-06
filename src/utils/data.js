@@ -79,7 +79,7 @@ export const topStylesHome = [
         img: 'https://rukminim2.flixcart.com/image/2400/2479/xif0q/shopsy-sweatshirt/m/i/o/xl-rewf-try-this-men-original-imagd7f4fujnt2wg.jpeg?q=60',
         discount: '10-45',
         price: '1,850',
-        hfhf: 'jfkdjf'
+        
     },
 ]
 
