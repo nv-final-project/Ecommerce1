@@ -48,8 +48,9 @@ const NivzoneFooter = () => {
                         <ul>
                             <li className="mb-[12px]"><i className="fa-solid fa-location-dot mr-[6px]"></i> Network Solutions LLC
                             742 Evergreen Ave, Ste 210, Riverton, New Columbia-10567 USA</li>
-                            <li className="mb-[12px]"><i className="fa-solid fa-mobile-screen mr-[6px]"></i> +1-803-555-3187</li>
-                            <li className="mb-[12px]"><i className="fa-solid fa-envelope mr-[6px]"></i> neikk345@gmail.com</li>
+                            <li className="mb-[12px]"><i className="fa-solid fa-mobile-screen mr-[6px]"></i> <a href="tel:+18048811189" className="hover:text-red-600 active:text-red-600">
+                            +1-463-439-489-8594 </a></li>
+                            <li className="mb-[12px]"><i className="fa-solid fa-envelope mr-[6px]"></i> <a href="mailto:neikk345@gmail.com" className="hover:text-red-600 active:text-red-600">neikk345@gmail.com</a></li>
                             <li className="mb-[12px]"><i className="fa-solid fa-envelope mr-[6px]"></i> Reg. No:- +91 95576724469728</li>
                             <li className="mb-[12px]"><i className="fa-solid fa-envelope mr-[6px]"></i> E-Commerce Business License No:- 3059827631</li>
                         </ul>

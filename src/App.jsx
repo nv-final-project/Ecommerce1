@@ -5,10 +5,11 @@ import Body from "./components/Body";
 import Home from "./components/home/Home";
 import Fashion from "./components/Fashion";
 import BestDeals from "./components/BestDeals";
-import Electronics from "./components/home/Electronics";
+import Electronics from "./components/Electronics";
 import BestSellers from "./components/BestSellers";
 import LoginPage from "./components/LoginPage";
 import SignUpPage from "./components/SignUpPage";
+import BuyNowPage from "./components/BuyNowPage";
 
 // const App = () => {
 //     return <h1 className="text-red-400">Hello</h1>
@@ -49,6 +50,9 @@ const rout = createBrowserRouter([
     {
         path: '/SignUp',
         element: <SignUpPage/>
+    },{
+        path: '/BuyNow',
+        element: <BuyNowPage/>
     }
 ])
 

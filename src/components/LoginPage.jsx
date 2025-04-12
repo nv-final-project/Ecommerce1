@@ -10,7 +10,7 @@ const LoginPage = () => {
             <button className="h-[46px] cursor-pointer w-[310px] block mx-auto rounded-[5px] bg-[#4c64fd] text-white hover:bg-amber-500">Login</button>
             <Link to='/SignUp' onClick={ ()=> console.log('link clicked')
                 }>
-                    <span className="h-[46px] cursor-pointer w-[310px] mt-[10px]  mx-auto rounded-[5px] bg-white flex justify-center items-center hover:bg-amber-500 hover:text-white">Don't have an account? Sign Up</span>
+                    <span className="h-[46px] cursor-pointer w-[310px] mt-[10px]  mx-auto rounded-[5px] bg-[#4c64fd] flex justify-center items-center hover:bg-amber-500 text-white">Don't have an account? Sign Up</span>
                 </Link>
               </div>
   </section>

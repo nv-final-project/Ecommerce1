@@ -17,7 +17,7 @@ const NavBarMobile = ({isMobileNavShow, setIsMobileNavBarShow, setBgImage}) => {
             }
 
     return <nav className="">
-            <div className={`fixed top-0 bg-black/60 z-[1000] h-screen inset-0 w-[65%] lg:hidden transform transition-all ease-in inline-flex flex-col  ${isMobileNavShow ? 'translate-x-[0]': 'translate-x-[-100%] '}`} >   
+            <div className={`fixed top-0 bg-blue-600/60 active:text-red-600 z-[1000] h-screen inset-0 w-[65%] lg:hidden transform transition-all ease-in inline-flex flex-col  ${isMobileNavShow ? 'translate-x-[0]': 'translate-x-[-100%] '}`} >   
                <i className="fa-solid fa-xmark mr-[20px] ml-auto mt-[20px] cursor-pointer" onClick={ (e) => setIsMobileNavBarShow(false) }></i> 
                <ul className="cursor-pointer flex-col items-center justify-between gap-[30px] text-[1rem] font-semibold " onClick={(e) => changeImg(e.target.id)}>
                 {navHeading.map((heading, index)=> {
