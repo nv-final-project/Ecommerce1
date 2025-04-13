@@ -1,14 +1,17 @@
+import { useState } from "react";
 import BookNowNavbar from "./BookNowNavBar.jsx";
 import NivzoneFooter from "./NivzoneFooter";
+import { productDetails } from "../utils/data.js";
+import { useParams } from 'react-router-dom';
 
 
 const BuyNowPage = () => {
+   
     return <>
            <BookNowNavbar/>
-            <div>
                 <div className="md:flex justify-between mt-[120px]">
                     <div className="flex flex-col mb-[100px]">
-                        <div className=" md:h-[540px] w-[75%%] mt-[28px] h-[400px]">
+                        <div className=" md:h-[540px]  mt-[28px] h-[400px]">
                             <img className="h-full w-full object-cover object-center md:ml-[40px]" src="https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/121032-iphone-16-pro-max.png" alt="" />
                         </div>
                     <div >
@@ -20,29 +23,29 @@ const BuyNowPage = () => {
                         <div className="max-w-xl   rounded-lg shadow p-[32px] space-y-2 md:ml-[26px] mt-[100px]">
                         <div className="text-xl font-semibold">
                         <h3 className="text-[1.6rem] font-semibold  mt-[10px]">iPhone 16 Pro Max</h3>
-                            <span className="text-gray-500">(Cool Sapphire, True Wireless)</span>
+                            <span className="text-gray-500">(Cool Titanium, 256GB, 5G Smartphone)</span>
                         </div>
 
                         <div className="flex items-center space-x-2">
-                            <div className="bg-green-600 text-white text-sm px-2 py-1 rounded">4 ★</div>
-                            <div className="text-gray-600 text-sm">12,88,256 Ratings & 81,165 Reviews</div>
+                            <span className="bg-green-600 text-white text-sm px-2 py-1 rounded">4 ★</span>
+                            <span className="text-gray-600 text-sm">12,88,256 Ratings & 81,165 Reviews</span>
                             <span className="text-blue-700 font-semibold text-sm">✔️ Assured</span>
                         </div>
 
                         <div className="text-green-700 font-semibold text-lg">Special price</div>
 
                         <div className="flex items-end space-x-2">
-                            <div className="text-2xl font-bold text-black">₹999</div>
-                            <div className="line-through text-gray-500">₹2,490</div>
-                            <div className="text-green-600 font-semibold">59% off</div>
+                            <span className="text-2xl font-bold text-black">₹999</span>
+                            <span className="line-through text-gray-500">₹2,490</span>
+                            <span className="text-green-600 font-semibold">59% off</span>
                         </div>
 
-                        <div className="text-sm text-gray-600">+ ₹9 Protect Promise Fee <a href="#" className="text-blue-600 underline">Learn more</a></div>
-                        <div className="text-sm text-gray-700">Secure delivery by <span className="font-medium">15 Apr, Tuesday</span></div>
-                        <div className="text-red-600 text-sm font-medium">Hurry, Only a few left!</div>
+                        
+                        <p className="text-sm text-gray-700">Secure delivery in 3-5 days </p>
+                        <p className="text-red-600 text-sm font-medium">Hurry, Only a few left!</p>
 
                         <div>
-                            <div className="font-semibold mb-1">Available offers</div>
+                            <span className="font-semibold mb-1">Available offers</span>
                             <ul className="space-y-1 text-sm text-gray-800">
                             <li>
                                 <span className="text-green-600 font-bold">🏷️ Bank Offer</span> 5% Unlimited Cashback on Flipkart Axis Bank Credit Card 
@@ -67,9 +70,7 @@ const BuyNowPage = () => {
 
                     </div>
                 </div>
-
                 <NivzoneFooter/>
-            </div>
     </>
 }
 

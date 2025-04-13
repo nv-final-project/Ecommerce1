@@ -482,3 +482,67 @@ export const bestSellersPage = [
         price: '11,499'
     }
 ];
+
+export const productDetails = [
+    {
+      id: "2c65409f-fa88-4719-835d-bc7abba716e9",
+      productName: "iPhone 16 Pro Max",
+      productFeature: "(Space Black, 1TB, 5G Smartphone)",
+      img: "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/121032-iphone-16-pro-max.png",
+      stars: "4.7 ★",
+      rating: "149,660 Ratings & 24,900 Reviews",
+      discountPrice: "131,363",
+      realPrice: "150,991",
+      discount: "13",
+      delivery: "4-6"
+    },
+    {
+      id: "2c65409f-fa88-4719-835d-bc7abba716e1",
+      productName: "iPhone 16 Pro Max",
+      productFeature: "(Space Black, 1TB, 5G Smartphone)",
+      img: "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/121032-iphone-16-pro-max.png",
+      stars: "4.7 ★",
+      rating: "149,660 Ratings & 24,900 Reviews",
+      discountPrice: "131,363",
+      realPrice: "150,991",
+      discount: "13",
+      delivery: "4-6"
+    },
+    {
+      id: "2c65409f-fa88-4719-835d-bc7abba716e2",
+      productName: "iPhone 16 Pro Max",
+      productFeature: "(Space Black, 1TB, 5G Smartphone)",
+      img: "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/121032-iphone-16-pro-max.png",
+      stars: "4.7 ★",
+      rating: "149,660 Ratings & 24,900 Reviews",
+      discountPrice: "131,363",
+      realPrice: "150,991",
+      discount: "13",
+      delivery: "4-6"
+    },
+    {
+      id: "2c65409f-fa88-4719-835d-bc7abba716e3",
+      productName: "iPhone 16 Pro Max",
+      productFeature: "(Space Black, 1TB, 5G Smartphone)",
+      img: "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/121032-iphone-16-pro-max.png",
+      stars: "4.7 ★",
+      rating: "149,660 Ratings & 24,900 Reviews",
+      discountPrice: "131,363",
+      realPrice: "150,991",
+      discount: "13",
+      delivery: "4-6"
+    },
+    {
+      id: "2c65409f-fa88-4719-835d-bc7abba716e4",
+      productName: "iPhone 16 Pro Max",
+      productFeature: "(Space Black, 1TB, 5G Smartphone)",
+      img: "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/121032-iphone-16-pro-max.png",
+      stars: "4.7 ★",
+      rating: "149,660 Ratings & 24,900 Reviews",
+      discountPrice: "131,363",
+      realPrice: "150,991",
+      discount: "13",
+      delivery: "4-6"
+    },
+  ];
+  
