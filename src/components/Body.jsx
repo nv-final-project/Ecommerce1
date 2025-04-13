@@ -16,7 +16,7 @@ const Body = () => {
         
     },[])
     return <>
-    <header  style={{'backgroundImage': `url(${bgImage})`}} className=" bg-cover bg-center md:h-[480px] h-[260px] max-w-[1400px] mx-auto ">
+    <header  style={{'backgroundImage': `url(${bgImage})`}} className=" bg-cover bg-center md:h-[400px] h-[260px] max-w-[1400px] mx-auto ">
         <NavBar bgImage = {bgImage} setBgImage= {setBgImage}/>
     </header>
     <main>

@@ -12,6 +12,8 @@ export const bestDealsImage = 'https://img.freepik.com/free-vector/elegance-bann
 
 export const bestSellersImage = 'https://images.unsplash.com/photo-1611403570720-162d8829689a?q=80&w=2274&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' 
 
+
+
 export const bestOfElectronicsHome = [
     {   
         id: 'bestOfElectronics1',

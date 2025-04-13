@@ -50,10 +50,11 @@ const rout = createBrowserRouter([
     {
         path: '/SignUp',
         element: <SignUpPage/>
-    },{
+    },
+    {
         path: '/BuyNow',
         element: <BuyNowPage/>
-    }
+     }
 ])
 
 const root = createRoot(document.getElementById("root"))
