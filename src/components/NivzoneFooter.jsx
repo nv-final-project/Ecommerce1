@@ -4,7 +4,7 @@ import { usefulLinks } from "../utils/data";
 import logo from "../images/nivzone_transparent.png";
 
 const NivzoneFooter = () => {
-   return <section className="max-w-[1400px] mx-auto">
+   return <section className="max-w-[1400px] mx-auto mt-[40px]">
              <div className="flex md:flex-row flex-col bg-blue-400 md:h-[520px] h-[1310px]  ">
                <div className="md:w-[20%] md:ml-[80px] ml-[20px] lg:ml-[120px] mt-[80px] md:mt-[120px]">
                    <div className="flex flex-col w-[120px] md:w-[160px] mx-auto my-[14px]  ">

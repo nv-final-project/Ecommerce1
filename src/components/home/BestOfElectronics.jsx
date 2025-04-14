@@ -1,7 +1,9 @@
 import { bestOfElectronicsHome } from "../../utils/data";
 import { Link } from "react-router-dom";
 
+
 const BestOfElectronics = () => {
+    
     return  <section className="max-w-[1400px] mx-auto">
                 
                 <div className="md:flex justify-between  my-[30px] items-center  md:mt-[50px]">
@@ -18,7 +20,7 @@ const BestOfElectronics = () => {
                         <div className="h-[242px] md:w-[368px] w-[340px]  overflow-hidden">
                             <img loading="lazy" className=" object-contain object-center cursor-pointer h-full w-full transition-transform duration-300 ease-in-out active:scale-[1.2] md:group-hover:scale-[1.1]" src = {img} alt="" />
                         </div>
-                        <Link to='/BuyNow'>
+                        <Link to={`/BuyNow/ElectronicsHome/${id}`}>
                             <p className=" my-[14px]  ml-[30px] items-center font-semibold cursor-pointer hover:text-blue-400 hover:transition-all hover:duration-300 hover:ease-in-out"> {productName}</p>
                             <div className="flex items-center justify-between mr-[30px]">
                             <p className="ml-[30px] text-[0.95rem] text-green-500 mt-[2px] ">Save {discount}%*</p>

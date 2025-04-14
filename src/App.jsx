@@ -6,10 +6,16 @@ import Home from "./components/home/Home";
 import Fashion from "./components/Fashion";
 import BestDeals from "./components/BestDeals";
 import Electronics from "./components/Electronics";
-import BestSellers from "./components/BestSellers";
+// import BestSellers from "./components/BestSellers";
 import LoginPage from "./components/LoginPage";
 import SignUpPage from "./components/SignUpPage";
-import BuyNowPage from "./components/BuyNowPage";
+import ElectronicsHomeBuyNow from "./components/BuyNow/ElectronicsHomeBuyNow";
+import TopStyleBuyNow from "./components/BuyNow/TopStylesBuyNow";
+import BestDealsHomeBuyNow from "./components/BuyNow/BestDealsHomeBuyNow";
+import ElectronicsBuyNow from "./components/BuyNow/ElectronicsBuyNow";
+import FashionBuyNow from "./components/BuyNow/FashionBuyNow";
+import BestDealsBuyNow from "./components/BuyNow/BestDealsBuyNow";
+
 
 // const App = () => {
 //     return <h1 className="text-red-400">Hello</h1>
@@ -37,10 +43,10 @@ const rout = createBrowserRouter([
                 path: '/BestDeals',
                 element: <BestDeals/>
             },
-            {
-                path: '/BestSellers',
-                element: <BestSellers/>
-            }
+            // {
+            //     path: '/BestSellers',
+            //     element: <BestSellers/>
+            // }
         ]
     },
     {
@@ -52,9 +58,29 @@ const rout = createBrowserRouter([
         element: <SignUpPage/>
     },
     {
-        path: '/BuyNow',
-        element: <BuyNowPage/>
-     }
+        path: '/BuyNow/ElectronicsHome/:id',  
+        element: <ElectronicsHomeBuyNow/>
+     },
+    {
+        path: '/BuyNow/TopStyles/:id',  
+        element: <TopStyleBuyNow/>
+     },
+    {
+        path: '/BuyNow/BestDealsHome/:id',  
+        element: <BestDealsHomeBuyNow/>
+     },
+    {
+        path: '/BuyNow/Electronics/:id',  
+        element: <ElectronicsBuyNow/>
+     },
+    {
+        path: '/BuyNow/Fashion/:id',  
+        element: <FashionBuyNow/>
+     },
+    {
+        path: '/BuyNow/BestDeals/:id',  
+        element: <BestDealsBuyNow/>
+     },
 ])
 
 const root = createRoot(document.getElementById("root"))
