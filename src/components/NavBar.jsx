@@ -23,7 +23,7 @@ const NavBar = ({setBgImage}) => {
        <div className="py-[20px] bg-slate-300/60   text-blue-600  ">
             <div className="flex items-center justify-between md:h-[90px] h-[60px] w-full">
                          <div className=" flex items-center justify-between mb-[40px] w-[180px] mx-auto  lg:ml-[90px] ">
-                             <img className="h-[80px] md:mt-[30px] mt-[60px] items-center " src={logo} alt="Nivzone logo" /></div>      
+                             <img className="h-[70px] md:mt-[30px] mt-[60px] items-center " src={logo} alt="Nivzone logo" /></div>      
                          <ul className="cursor-pointer lg:flex hidden items-center justify-between gap-[40px]   text-[1.3rem]" onClick={(e) => changeImg(e.target.id)}>
                              {
                              navHeading.map((heading, index)=> {

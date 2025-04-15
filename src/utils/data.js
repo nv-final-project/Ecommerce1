@@ -26,7 +26,7 @@ export const bestOfElectronicsHome = [
         price: '1,44,900',
         discountPrice: "1,20,000",
         specialDiscount: 20,
-        delivery: 3-5,
+        delivery: "3-5",
     },
     {
         id: 'bestOfElectronics2',
@@ -38,7 +38,7 @@ export const bestOfElectronicsHome = [
         reviews: "10,88,256 Ratings & 59,165 Reviews",
         discountPrice: "40,000",
         specialDiscount: 30,
-        delivery: 2-5,
+        delivery: "2-5",
         price: '59,999'
     },
     {
@@ -52,7 +52,7 @@ export const bestOfElectronicsHome = [
         reviews: "3,88,256 Ratings & 48,189 Reviews",
         discountPrice: "4,000",
         specialDiscount: 30,
-        delivery: 2-4,
+        delivery: "2-4",
     },
     {
         id: 'bestOfElectronics4',
@@ -61,11 +61,11 @@ export const bestOfElectronicsHome = [
         discount: '25-50',
         productFeature: "(Black, Over-Ear, ANC, Bluetooth 5.2, 30H Playtime, Quick Charge)",
         price: '4,499',
-        ratings: "4★",
+        ratings: "4.3★",
         reviews: "3,88,256 Ratings & 48,189 Reviews",
         discountPrice: "3,000",
         specialDiscount: 25,
-        delivery: 2-5,
+        delivery: "2-5",
 
     },
     {
@@ -79,7 +79,7 @@ export const bestOfElectronicsHome = [
         reviews: "4,88,256 Ratings & 50,189 Reviews",
         discountPrice: "45,000",
         specialDiscount: 30,
-        delivery: 3-6,
+        delivery: "3-6",
     },
     {
         id: 'bestOfElectronics6',
@@ -92,7 +92,7 @@ export const bestOfElectronicsHome = [
         reviews: "4,99,256 Ratings & 52,189 Reviews",
         discountPrice: "10,199",
         specialDiscount: 32,
-        delivery: 3-5,
+        delivery: "3-5",
     }
     
 ]
@@ -110,7 +110,7 @@ export const topStylesHome = [
         reviews: "5,09,256 Ratings & 50,999 Reviews",
         discountPrice: "3,199",
         specialDiscount: 30,
-        delivery: 3-5,
+        delivery: "3-5",
     },
     {
         id: 'styles2',
@@ -123,7 +123,7 @@ export const topStylesHome = [
         reviews: "5,09,256 Ratings & 50,999 Reviews",
         discountPrice: "3,999",
         specialDiscount: 25,
-        delivery: 3-6,
+        delivery: "3-6",
     },
     {
         id: 'styles3',
@@ -136,7 +136,7 @@ export const topStylesHome = [
         reviews: "6,09,256 Ratings & 59,999 Reviews",
         discountPrice: "4,299",
         specialDiscount: 20,
-        delivery: 3-5,
+        delivery: "3-5",
     },
 ]
 
@@ -152,7 +152,7 @@ export const bestDealsHome =  [
         reviews: "7,09,256 Ratings & 62,999 Reviews",
         discountPrice: "10,299",
         specialDiscount: 20,
-        delivery: 3-5,
+        delivery: "3-5",
 
     },
     {
@@ -166,7 +166,7 @@ export const bestDealsHome =  [
         reviews: "10,09,256 Ratings & 90,999 Reviews",
         discountPrice: "1,70,299",
         specialDiscount: 25,
-        delivery: 3-5,
+        delivery: "3-5",
     },
     {
         id:  "bestDealsHome3",
@@ -179,28 +179,28 @@ export const bestDealsHome =  [
         reviews: "6,09,256 Ratings & 50,999 Reviews",
         discountPrice: "2,80,299",
         specialDiscount: 20,
-        delivery: 4-7,
+        delivery: "4-7",
     },
 ];
 
 
 export const bestSellersHome = [
     {
-        id:  crypto.randomUUID(),
+        id:  "bestSellersHome1",
         productName: 'Keto Vegan Protein Shake',
         img: 'https://images.unsplash.com/photo-1652769749021-1360a2be480e?q=80&w=1473&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         discount: '5-15',
         price: '1,499'
     },
     {
-        id:  crypto.randomUUID(),
+        id:  "bestSellersHome2",
         productName: 'Sony Frost Edge 500 Refrigerator',
         img: 'https://img.freepik.com/free-vector/red-black-open-refrigerator-with-products_1284-23311.jpg?t=st=1744106277~exp=1744109877~hmac=d82205f8110fb662e45308713f90bc024e12e92e692c26da171ae5f80d8f913a&w=740',
         discount: '30-55',
         price: '14,599'
     },
     {
-        id:  crypto.randomUUID(),
+        id:  "bestSellersHome3",
         productName: 'Women Checkmate Classic Rayon Coat ',
         img: 'https://img.freepik.com/free-photo/attractive-young-woman-walking-autumn-wearing-coat_285396-11069.jpg?t=st=1744106691~exp=1744110291~hmac=52a66c524e9c7609343155e1d6642f3d838d719490db645f188ea9b7222c5402&w=740',
         discount: '25-50',
@@ -220,7 +220,7 @@ export const electronicsPage = [
         price: '1,44,900',
         discountPrice: "1,20,000",
         specialDiscount: 20,
-        delivery: 3-5,
+        delivery: "3-5",
     },
     {
         id: 'Electronics2',
@@ -232,7 +232,7 @@ export const electronicsPage = [
         reviews: "10,88,256 Ratings & 59,165 Reviews",
         discountPrice: "40,000",
         specialDiscount: 30,
-        delivery: 2-5,
+        delivery: "2-5",
         price: '59,999'
     },
     {
@@ -242,11 +242,11 @@ export const electronicsPage = [
         img: 'https://m.media-amazon.com/images/I/71yYUKOQEeL.jpg',
         discount: '10-45',
         price: '5,299',
-        ratings: "4★",
+        ratings: "4.2★",
         reviews: "3,88,256 Ratings & 48,189 Reviews",
         discountPrice: "4,000",
         specialDiscount: 30,
-        delivery: 2-4,
+        delivery: "2-4",
     },
     {
         id: 'Electronics4',
@@ -255,11 +255,11 @@ export const electronicsPage = [
         discount: '25-50',
         productFeature: "(Black, Over-Ear, ANC, Bluetooth 5.2, 30H Playtime, Quick Charge)",
         price: '4,499',
-        ratings: "4★",
+        ratings: "4.1★",
         reviews: "3,88,256 Ratings & 48,189 Reviews",
         discountPrice: "3,000",
         specialDiscount: 25,
-        delivery: 2-5,
+        delivery: "2-5",
 
     },
     {
@@ -273,7 +273,7 @@ export const electronicsPage = [
         reviews: "4,88,256 Ratings & 50,189 Reviews",
         discountPrice: "45,000",
         specialDiscount: 30,
-        delivery: 3-6,
+        delivery: "3-6",
     },
     {
         id: 'Electronics6',
@@ -286,7 +286,7 @@ export const electronicsPage = [
         reviews: "4,99,256 Ratings & 52,189 Reviews",
         discountPrice: "10,199",
         specialDiscount: 32,
-        delivery: 3-5,
+        delivery: "3-5",
     },
     {
         id: 'Electronics7',
@@ -295,10 +295,11 @@ export const electronicsPage = [
         discount: '20-30',
         price: '36,570',
         productFeature: "(White, Whirlpool Xpert Care, 7kg Load Capacity, 6th Sense Technology, Smart Sensor, 1200 RPM Spin Speed)",
+        ratings: "4.3★",
         reviews: "6,99,256 Ratings & 60,189 Reviews",
         discountPrice: "28,899",
         specialDiscount: 25,
-        delivery: 3-6,
+        delivery: "3-6",
     },
     {
         id: 'Electronics8',
@@ -307,10 +308,11 @@ export const electronicsPage = [
         discount: '15-25',
         price: '5,999',
         productFeature: "(White, Havells Plastic Personal Cooler, 20L Capacity, Portable Design, Ice Chamber, Efficient Cooling, 3-Speed Control)",
+        ratings: "4.4★",
         reviews: "6,99,256 Ratings & 60,189 Reviews",
         discountPrice: "3,999",
         specialDiscount: 20,
-        delivery: 2-4,
+        delivery: "2-4",
     },
     {
         id: 'Electronics9',
@@ -319,10 +321,11 @@ export const electronicsPage = [
         discount: '12-28',
         price: '1,29,999',
         productFeature: `(Phantom Gold, Samsung Galaxy S24 Ultra, 6.8" Dynamic AMOLED 2X, Exynos 2400, 12GB RAM, 512GB Storage, 200MP Camera, 5G)`,
+        ratings: "4.6★",
         reviews: "6,99,256 Ratings & 60,189 Reviews",
         discountPrice: "99,999",
         specialDiscount: 20,
-        delivery: 3-6,
+        delivery: "3-6",
     },
     {
         id: 'Electronics10',
@@ -331,10 +334,11 @@ export const electronicsPage = [
         discount: '20-30',
         price: '8,999',
         productFeature: `(Black, Home Theater Music System, 5.1 Channel, Dolby Digital Sound, Wireless Subwoofer, Bluetooth Connectivity, 1000W RMS)`,
+        ratings: "4.1★",
         reviews: "4,99,256 Ratings & 40,489 Reviews",
         discountPrice: "7,199",
         specialDiscount: 24,
-        delivery: 3-5,
+        delivery: "3-5",
     },
     {
         id: 'Electronics11',
@@ -343,10 +347,11 @@ export const electronicsPage = [
         discount: '15-30',
         price: '6,699',
         productFeature: `(Black, Panasonic Convection Microwave Oven, 25L Capacity, 900W Power, Auto Cook Menus, Grill & Convection Mode, Touch Control)`,
+        ratings: "4.6★",
         reviews: "5,47,256 Ratings & 43,489 Reviews",
         discountPrice: "5,199",
         specialDiscount: 18,
-        delivery: 3-5,
+        delivery: "3-5",
     },
     {
         id:  "Electronics12",
@@ -355,10 +360,11 @@ export const electronicsPage = [
         discount: '20-30',
         price: '42,999',
         productFeature: `(Black, LG Smart TV, 55" 4K UHD, WebOS, AI ThinQ, Dolby Vision, Google Assistant, HDR10+, Wi-Fi Enabled)`,
+        ratings: "4.4★",
         reviews: "6,69,256 Ratings & 56,489 Reviews",
         discountPrice: "38,499",
         specialDiscount: 26,
-        delivery: 4-6,
+        delivery: "4-6",
     },
 ];
 
@@ -374,7 +380,7 @@ export const fashionPage = [
         reviews: "5,09,256 Ratings & 50,999 Reviews",
         discountPrice: "3,199",
         specialDiscount: 30,
-        delivery: 3-5,
+        delivery: "3-5",
     },
     {
         id: 'Fashion2',
@@ -387,7 +393,7 @@ export const fashionPage = [
         reviews: "5,09,256 Ratings & 50,999 Reviews",
         discountPrice: "3,999",
         specialDiscount: 25,
-        delivery: 3-6,
+        delivery: "3-6",
     },
     {
         id: 'Fashion3',
@@ -400,7 +406,7 @@ export const fashionPage = [
         reviews: "6,09,256 Ratings & 59,999 Reviews",
         discountPrice: "4,299",
         specialDiscount: 20,
-        delivery: 3-5,
+        delivery: "3-5",
     },
     {
         id: 'Fashion4',
@@ -413,7 +419,7 @@ export const fashionPage = [
         reviews: "5,49,256 Ratings & 57,086 Reviews",
         discountPrice: "6,099",
         specialDiscount: 20,
-        delivery: 3-4,
+        delivery: "3-4",
     },
     {
         id: 'Fashion5',
@@ -426,7 +432,7 @@ export const fashionPage = [
         reviews: "7,49,256 Ratings & 59,486 Reviews",
         discountPrice: "1,999",
         specialDiscount: 20,
-        delivery: 1-4,
+        delivery: "1-4",
     },
     {
         id:  "Fashion6",
@@ -439,7 +445,7 @@ export const fashionPage = [
         reviews: "6,49,256 Ratings & 54,486 Reviews",
         discountPrice: "7,999",
         specialDiscount: 20,
-        delivery: 2-5,
+        delivery: "2-5",
     },
     {
         id: 'Fashion7',
@@ -452,7 +458,7 @@ export const fashionPage = [
         reviews: "6,49,256 Ratings & 54,486 Reviews",
         discountPrice: "1,999",
         specialDiscount: 28,
-        delivery: 2-4,
+        delivery: "2-4",
     },
     {
         id: 'Fashion8',
@@ -465,7 +471,7 @@ export const fashionPage = [
         reviews: "8,69,486 Ratings & 69,497 Reviews",
         discountPrice: "10,699",
         specialDiscount: 30,
-        delivery: 3-6,
+        delivery: "3-6",
     },
     {
         id: 'Fashion9',
@@ -478,7 +484,7 @@ export const fashionPage = [
         reviews: "7,39,686 Ratings & 58,497 Reviews",
         discountPrice: "8,099",
         specialDiscount: 25,
-        delivery: 3-5,
+        delivery: "3-5",
     },
     {
         id: 'Fashion10',
@@ -491,7 +497,7 @@ export const fashionPage = [
         reviews: "7,39,686 Ratings & 58,497 Reviews",
         discountPrice: "9,299",
         specialDiscount: 25,
-        delivery: 3-5,
+        delivery: "3-5",
     },
     {
         id: 'Fashion11',
@@ -504,7 +510,7 @@ export const fashionPage = [
         reviews: "4,58,320 Ratings & 39,876 Reviews",
         discountPrice: "7,499",
         specialDiscount: 24,
-        delivery: 3-5,
+        delivery: "3-5",
     },
     {
         id: "Fashion12",
@@ -517,7 +523,7 @@ export const fashionPage = [
         reviews: "6,87,201 Ratings & 51,560 Reviews",
         discountPrice: "10,499",
         specialDiscount: 18,
-        delivery: 3-5,
+        delivery: "3-5",
     },
 ];
 export const bestDealsPage = [
@@ -532,7 +538,7 @@ export const bestDealsPage = [
         reviews: "7,09,256 Ratings & 62,999 Reviews",
         discountPrice: "10,299",
         specialDiscount: 20,
-        delivery: 3-5,
+        delivery: "3-5",
 
     },
     {
@@ -546,7 +552,7 @@ export const bestDealsPage = [
         reviews: "10,09,256 Ratings & 90,999 Reviews",
         discountPrice: "1,70,299",
         specialDiscount: 25,
-        delivery: 3-5,
+        delivery: "3-5",
     },
     {
         id:  "bestDeals3",
@@ -559,7 +565,7 @@ export const bestDealsPage = [
         reviews: "6,09,256 Ratings & 50,999 Reviews",
         discountPrice: "2,80,299",
         specialDiscount: 20,
-        delivery: 4-7,
+        delivery: "4-7",
     },
     {
         id: 'bestDeals4',
@@ -572,7 +578,7 @@ export const bestDealsPage = [
         reviews: '5,21,349 Ratings & 41,876 Reviews',
         discountPrice: '38,899',
         specialDiscount: 40,
-        delivery: 3-5,
+        delivery: "3-5",
     },
     {
         id: 'bestDeals5',
@@ -585,7 +591,7 @@ export const bestDealsPage = [
         reviews: '3,89,672 Ratings & 36,549 Reviews',
         discountPrice: '5,999',
         specialDiscount: 15,
-        delivery: 3-5,
+        delivery: "3-5",
     },
     {
         id: 'bestDeals6',
@@ -598,7 +604,7 @@ export const bestDealsPage = [
         reviews: '2,23,598 Ratings 30,147 Reviews',
         discountPrice: '2,06,999',
         specialDiscount: 10,
-        delivery: 4-6,
+        delivery: "4-6",
     },
     {
         id: 'bestDeals7',
@@ -611,7 +617,7 @@ export const bestDealsPage = [
         reviews: '54,854 Ratings & 8,049 Reviews',
         discountPrice: '13,64,869',
         specialDiscount: 35,
-        delivery: 7-10,
+        delivery: "7-10",
     },
     {
         id: 'bestDeals8',
@@ -624,7 +630,7 @@ export const bestDealsPage = [
         reviews: '4,67,321 Ratings & 50,247 Reviews',
         discountPrice: '5,499',
         specialDiscount: 20,
-        delivery: 3-5,
+        delivery: "3-5",
     },
     {
         id: 'bestDeals9',
@@ -637,7 +643,7 @@ export const bestDealsPage = [
         reviews: '5,02,421 Ratings & 56,137 Reviews',
         discountPrice: '5,199',
         specialDiscount: 20,
-        delivery: 3-5,
+        delivery: "3-5",
     },
     {
         id: 'bestDeals10',
@@ -650,7 +656,7 @@ export const bestDealsPage = [
         reviews: '2,48,312 Ratings & 31,204 Reviews',
         discountPrice: '36,249',
         specialDiscount: 15,
-        delivery: 3-6,
+        delivery: "3-6",
     },
     {
         id: 'bestDeals11',
@@ -663,12 +669,12 @@ export const bestDealsPage = [
         reviews: '8,31,478 Ratings & 65,854 Reviews',
         discountPrice: '7,649',
         specialDiscount: 15,
-        delivery: 3-5,
+        delivery: "3-5",
     },
     {
         id: 'bestDeals12',
         productName: 'The Midtown Classic Women Coat',
-        img: 'https://img.freepik.com/free-photo/woman-coat-with-phone_1303-5753.jpg?t=st=1744368303~exp=1744371903~hmac=25f2617cb8bfd58e8c85b8b0674430cee6a2ba2f094646a12389577c71cd9a13&w=1380',
+        img: 'https://img.freepik.com/free-photo/woman-coat-with-phone_130"3-5"753.jpg?t=st=1744368303~exp=1744371903~hmac=25f2617cb8bfd58e8c85b8b0674430cee6a2ba2f094646a12389577c71cd9a13&w=1380',
         discount: '20-30',
         price: '9,299',
         productFeature: '(Gray, Midtown Classic Coat, Wool Blend, Double-Breasted, Belted Waist, Ideal for Winter Chic Look)',
@@ -676,7 +682,7 @@ export const bestDealsPage = [
         reviews: '6,42,567 Ratings & 53,604 Reviews',
         discountPrice: '7,439',
         specialDiscount: 20,
-        delivery: 3-6,
+        delivery: "3-6",
     }
     
 ];
@@ -684,84 +690,84 @@ export const bestDealsPage = [
 
 export const bestSellersPage = [
     {
-        id:  crypto.randomUUID(),
+        id:  "bestSellersPage1",
         productName: 'Keto Vegan Protein Shake',
         img: 'https://images.unsplash.com/photo-1652769749021-1360a2be480e?q=80&w=1473&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         discount: '5-15',
         price: '1,499'
     },
     {
-        id:  crypto.randomUUID(),
+        id:  "bestSellersPage2",
         productName: 'Sony Frost Edge 500 Refrigerator',
         img: 'https://img.freepik.com/free-vector/red-black-open-refrigerator-with-products_1284-23311.jpg?t=st=1744106277~exp=1744109877~hmac=d82205f8110fb662e45308713f90bc024e12e92e692c26da171ae5f80d8f913a&w=740',
         discount: '30-55',
         price: '14,599'
     },
     {
-        id:  crypto.randomUUID(),
+        id:  "bestSellersPage3",
         productName: 'Women Checkmate Classic Rayon Coat ',
         img: 'https://img.freepik.com/free-photo/attractive-young-woman-walking-autumn-wearing-coat_285396-11069.jpg?t=st=1744106691~exp=1744110291~hmac=52a66c524e9c7609343155e1d6642f3d838d719490db645f188ea9b7222c5402&w=740',
         discount: '25-50',
         price: '3,099'
     },
     {
-        id:  crypto.randomUUID(),
+        id:  "bestSellersPage4",
         productName: 'LG Smart TV',
         img: 'https://www.lg.com/content/dam/channel/wcms/in/images/tvs/32lq643bpta_atrq_eail_in_c/gallery/32LQ643bpta-DZ-1.jpg',
         discount: '20-55',
         price: '42,999'
     },
     {
-        id:  crypto.randomUUID(),
+        id:  "bestSellersPage5",
         productName: 'Polka Dot Elegance Women Dress',
         img: 'https://img.freepik.com/free-photo/charming-young-photographer-with-brunette-wavy-hair-beret-white-top-red-shirt-polka-dot-skirt-standing-street-near-cafe-looking-away_197531-24484.jpg?t=st=1744370389~exp=1744373989~hmac=becd88a2dd6ec8c013391e8ececabf54653fef0aa8980cbcd12946d084a903d7&w=1380',
         discount: '20-40',
         price: '7,999'
     },
     {
-        id:  crypto.randomUUID(),
+        id:  "bestSellersPage6",
         productName: 'Rangoli Radiance Saree',
         img: 'https://images.unsplash.com/photo-1610189337543-1c5d8e64f574?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         discount: '10-20',
         price: '8,999'
     },
     {
-        id:  crypto.randomUUID(),
+        id:  "bestSellersPage7",
         productName: 'Royal Raga Saree',
         img: 'https://images.unsplash.com/photo-1610189012906-4c0aa9b9781e?q=80&w=2348&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         discount: '10-20',
         price: '7,499'
     },
     {
-        id:  crypto.randomUUID(),
+        id:  "bestSellersPage8",
         productName: 'Tropical Treasure Fruit Basket',
         img: 'https://assets.oyegifts.com/flowers-n-gifts/vendordata/product/5-kg-small-fresh-fruits-basket.jpg',
         discount: '20-25',
         price: '1,999'
     },
     {
-        id:  crypto.randomUUID(),
+        id:  "bestSellersPage9",
         productName: 'BlazeRider Helmet',
         img: 'https://img.freepik.com/free-photo/motorcycle-safety-helmet_23-2151531221.jpg?t=st=1744436149~exp=1744439749~hmac=7dce86d6a59da043d38aed68ccf3810c3beda6825990cb69dd354f5da38ad369&w=1380',
         discount: '25-30',
         price: '1,199'
     },
     {
-        id:  crypto.randomUUID(),
+        id:  "bestSellersPage10",
         productName: 'CyberZen Battlestation Gaming PC',
         img: 'https://images.unsplash.com/photo-1696710240292-05aad88b94b8?q=80&w=2232&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         discount: '10-20',
         price: '44,999'
     },
     {
-        id:  crypto.randomUUID(),
+        id:  "bestSellersPage11",
         productName: 'Girls Winter Whisper Coat',
         img: 'https://images.unsplash.com/photo-1484329081568-bed9ba42793d?q=80&w=2346&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         discount: '25-35',
         price: '7,999'
     },
     {
-        id:  crypto.randomUUID(),
+        id:  "bestSellersPage12",
         productName: 'Red Raga Silk Saree',
         img: 'https://images.unsplash.com/photo-1618901185975-d59f7091bcfe?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         discount: '15-20',
@@ -769,66 +775,3 @@ export const bestSellersPage = [
     }
 ];
 
-export const productDetails = [
-    {
-      id: "productDetails1",
-      productName: "iPhone 16 Pro Max",
-      productFeature: "(Space Black, 1TB, 5G Smartphone)",
-      img: "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/121032-iphone-16-pro-max.png",
-      stars: "4.7 ★",
-      rating: "149,660 Ratings & 24,900 Reviews",
-      discountPrice: "131,363",
-      realPrice: "150,991",
-      discount: "13",
-      delivery: "4-6"
-    },
-    {
-      id: "productDetails2",
-      productName: "iPhone 17 Pro Max",
-      productFeature: "(Space Black, 1TB, 5G Smartphone)",
-      img: "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/121032-iphone-16-pro-max.png",
-      stars: "4.7 ★",
-      rating: "149,660 Ratings & 24,900 Reviews",
-      discountPrice: "131,363",
-      realPrice: "150,991",
-      discount: "13",
-      delivery: "4-6"
-    },
-    {
-      id: "productDetails3",
-      productName: "iPhone 18 Pro Max",
-      productFeature: "(Space Black, 1TB, 5G Smartphone)",
-      img: "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/121032-iphone-16-pro-max.png",
-      stars: "4.7 ★",
-      rating: "149,660 Ratings & 24,900 Reviews",
-      discountPrice: "131,363",
-      realPrice: "150,991",
-      discount: "13",
-      delivery: "4-6"
-    },
-    {
-      id: "productDetails4",
-      productName: "iPhone 19 Pro Max",
-      productFeature: "(Space Black, 1TB, 5G Smartphone)",
-      img: "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/121032-iphone-16-pro-max.png",
-      stars: "4.7 ★",
-      rating: "149,660 Ratings & 24,900 Reviews",
-      discountPrice: "131,363",
-      realPrice: "150,991",
-      discount: "13",
-      delivery: "4-6"
-    },
-    {
-      id: "productDetails5",
-      productName: "iPhone 20 Pro Max",
-      productFeature: "(Space Black, 1TB, 5G Smartphone)",
-      img: "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/121032-iphone-16-pro-max.png",
-      stars: "4.7 ★",
-      rating: "149,660 Ratings & 24,900 Reviews",
-      discountPrice: "131,363",
-      realPrice: "150,991",
-      discount: "13",
-      delivery: "4-6"
-    },
-  ];
-  

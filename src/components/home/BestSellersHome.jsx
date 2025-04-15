@@ -10,7 +10,7 @@
 //                     <span className="md:block hidden md:mr-[120px] text-[1.2rem] cursor-pointer font-bold text-blue-400 hover:text-blue-500 hover:transition-all hover:duration-300 hover:ease-in-out">View All <i className="fa-solid fa-chevron-right"></i></span>
 //                     </Link>
 //                 </div>
-//                 <div className="grid sm:grid-cols-2  lg:grid-cols-3 md:mx-[120px] gap-[30px] ">
+//                 <div className="grid sm:grid-cols-2 rounded-[8px]  lg:grid-cols-3 md:mx-[120px] gap-[30px] ">
 //                     {bestSellersHome.map((data) => {
 //                     const {productName,  discount, price, img, id} = data
 //                     return (

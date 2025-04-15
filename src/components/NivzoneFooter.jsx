@@ -5,15 +5,15 @@ import logo from "../images/nivzone_transparent.png";
 
 const NivzoneFooter = () => {
    return <section className="max-w-[1400px] mx-auto mt-[40px]">
-             <div className="flex md:flex-row flex-col bg-blue-400 md:h-[520px] h-[1310px]  ">
-               <div className="md:w-[20%] md:ml-[80px] ml-[20px] lg:ml-[120px] mt-[80px] md:mt-[120px]">
-                   <div className="flex flex-col w-[120px] md:w-[160px] mx-auto my-[14px]  ">
+             <div className="flex md:flex-row flex-col bg-slate-800 md:h-[520px] h-[1300px]  ">
+               <div className="md:w-[20%] md:ml-[80px] ml-[20px] lg:ml-[120px] mt-[50px] md:mt-[100px]">
+                   <div className="flex flex-col w-[120px]  my-[14px]  ">
                                        <img src= {logo} className=" w-full object-cover object-center" alt="" />
                                        
                                    </div>       
-                   <p className="text-white w text-[0.9rem] ">Nivzone, a VS Enterprise, delivers premium products with a focus on , innovation, ensuring excellence and customer satisfaction in every purchase. With a commitment to innovation and reliability, we strive to deliver the best shopping experience.</p>
+                   <p className="text-white  text-[0.9rem] ">Nivzone, a VS Enterprise, delivers premium products with a focus on , innovation, ensuring excellence and customer satisfaction in every purchase. With a commitment to innovation and reliability, we strive to deliver the best shopping experience.</p>
                </div>
-                <div className="text-white lg:w-[20%] md:w-[25%] md:block mt-[60px] md:ml-[70px] md:mt-[120px] ml-[20px]">
+                <div className="text-white lg:w-[20%] md:w-[25%] md:block mt-[60px] md:ml-[70px] md:mt-[100px] ml-[20px]">
                    <h4 className="text-[1.5rem] font-semibold mb-[12px]">QUICKS LINKS <hr className="text-amber-300 w-[30%] border-[1px] ml-[2px]" /></h4>
                    <ul  className="list-disc pl-5 text-[0.95rem]">
                     {
@@ -28,7 +28,7 @@ const NivzoneFooter = () => {
                     }
                     </ul> 
                 </div>              
-                <div className="text-white lg:w-[20%] md:w-[25%] md:block mt-[60px] md:ml-[20px] md:mt-[120px] ml-[20px]">
+                <div className="text-white lg:w-[20%] md:w-[25%] md:block mt-[60px] md:ml-[20px] md:mt-[100px] ml-[20px]">
                        <h4 className="text-[1.5rem] font-semibold mb-[12px]">USEFUL LINKS <hr className="text-amber-300 w-[30%] border-[1px] ml-[2px]" /></h4>
                         <ul  className="list-disc pl-5 text-[0.95rem]">
                          {
@@ -43,7 +43,7 @@ const NivzoneFooter = () => {
                         </ul> 
                     </div>             
                                                    
-                    <div className="text-white lg:w-[20%] md:w-[25%] ml-[20px] lg:ml-[0px] mt-[60px] md:mt-[120px] lg:mr-[100px]">
+                    <div className="text-white lg:w-[20%] md:w-[25%] ml-[20px] lg:ml-[0px] mt-[60px] md:mt-[100px] lg:mr-[100px]">
                         <h4 className="text-[1.5rem] font-semibold mb-[12px]">CONTACT INFO<hr className="text-amber-300 w-[30%] border-[1px] ml-[2px]" /></h4>
                         <ul>
                             <li className="mb-[12px]"><i className="fa-solid fa-location-dot mr-[6px]"></i> Network Solutions LLC

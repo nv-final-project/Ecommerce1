@@ -11,7 +11,7 @@
 //                 {bestSellersPage.map((data) => {
 //                    const {productName, discount, price, img, id} = data
 //                    return (
-//                 <div key={id} className="pb-[18px] group overflow-hidden hover:shadow-md  bg-white w-[340px] md:w-[368px] border-[1px] border-gray-200 mb-[40px] mx-auto md:mx-[0px]">
+//                 <div key={id} className="pb-[18px] rounded-[8px] group overflow-hidden hover:shadow-md  bg-white w-[340px] md:w-[368px] border-[1px] border-gray-200 mb-[40px] mx-auto md:mx-[0px]">
 //                     <div className="h-[242px] md:w-[368px] w-[340px]  overflow-hidden">
 //                        <img loading="lazy" className="  object-cover cursor-pointer h-full w-full transition-transform duration-300 ease-in-out active:scale-[1.2] md:group-hover:scale-[1.1]" src = {img} alt="" />
 //                     </div>

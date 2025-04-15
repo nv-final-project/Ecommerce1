@@ -1,21 +1,37 @@
 import { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
 import BookNowNavbar from "../BookNowNavBar.jsx";
 import NivzoneFooter from "../NivzoneFooter.jsx";
-import { bestDealsPage } from "../../utils/data.js";
-import { useParams } from 'react-router-dom';
+import {
+  bestDealsPage,
+  electronicsPage,
+  fashionPage,
+  bestOfElectronicsHome,
+  topStylesHome,
+  bestDealsHome,
+} from "../../utils/data.js";
 
+const BuyNowPage = () => {
+  const { id } = useParams(); // Get the product ID from the URL params
+  const [product, setProduct] = useState("");
 
-const BestDealsBuyNow = () => {
-    const { id } = useParams();  // Get the product ID from the URL params
-    const [product, setProduct] = useState("");
+  useEffect(() => {
+    // Combine all product arrays
+    const allProducts = [
+      ...bestDealsPage,
+      ...electronicsPage,
+      ...fashionPage,
+      ...bestOfElectronicsHome,
+      ...topStylesHome,
+      ...bestDealsHome,
+    ];
 
-    useEffect(() => {
-        // Find the product by the ID from the params
-        const selectedProduct = bestDealsPage.find(product => product.id === id);
-        setProduct(selectedProduct);  // Set the selected product to state
-    }, [id]); // Re-run when the product ID changes
+    // Find the product by ID
+    const selectedProduct = allProducts.find((product) => product.id === id);
+    setProduct(selectedProduct); // Set the selected product to state
+  }, [id]); // Re-run when the product ID changes
 
-    if (!product) return <div>Loading...</div>;  // Wait until product is found
+  if (!product) return <div className="text-center mt-[120px]">Loading...</div>; // Wait until product is found
 
     return <>
            <BookNowNavbar/>
@@ -51,7 +67,7 @@ const BestDealsBuyNow = () => {
                             </div>
 
                             
-                            <p className="text-sm text-gray-700">Secure delivery in 3-5 days </p>
+                            <p className="text-sm text-gray-700">Secure delivery in {product.delivery} days </p>
                             <p className="text-red-600 text-sm font-medium">Hurry, Only a few left!</p>
 
                             <div>
@@ -85,4 +101,4 @@ const BestDealsBuyNow = () => {
 }
 
 
-export default BestDealsBuyNow;
+export default BuyNowPage;
