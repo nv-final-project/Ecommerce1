@@ -5,6 +5,7 @@ import {
   electronicsPage,
   fashionPage,
   bestDealsPage,
+  bestSellersPage,
 } from "../../utils/data"; 
 import { Link} from "react-router-dom";
 
@@ -17,6 +18,7 @@ const SearchBar = ({ onSearchResults }) => {
     ...electronicsPage,
     ...fashionPage,
     ...bestDealsPage,
+    ...bestSellersPage,
   ];
 
 
@@ -40,16 +42,16 @@ const SearchBar = ({ onSearchResults }) => {
 
   return (   
             <section className="max-w-[1400px] mx-auto">
-            <div>
-                <div className="bg-gray-200 flex items-center px-[20px] py-[4px] h-[40px] w-[350px] rounded-[8px] md:mx-[40px] mx-auto md:mt-[80px] mt-[50px]">
-                <i className="fa-solid fa-magnifying-glass md:mr-[10px]"></i>
-                <input
-                    className="w-[100%] outline-none"
-                    type="text"
-                    placeholder="Search for Products, Brands and More"
-                    value={query}
-                    onChange={handleSearch}
-                />
+            <div className="group overflow-hidden">
+                <div className="bg-gray-200 flex g items-center px-[20px] py-[4px] h-[40px] w-[350px] rounded-[8px] md:mx-[40px] mx-auto md:mt-[80px] mt-[50px] transition-transform duration-300 ease-in-out active:scale-[1.2] md:group-hover:scale-[1.1]">
+                  <i className="fa-solid fa-magnifying-glass md:mr-[10px]"></i>
+                  <input
+                      className="w-[100%] outline-none "
+                      type="text"
+                      placeholder="Search for Products, Brands and More"
+                      value={query}
+                      onChange={handleSearch}
+                  />
                 </div>
                 <img
                 loading="lazy"
@@ -68,7 +70,7 @@ const SearchBar = ({ onSearchResults }) => {
                     {searchResults.map((product) => (
                         <div
                         key={product.id}
-                        className=" rounded-[8px] p-[15px] bg-white shadow-md hover:shadow-lg transition-shadow">
+                        className=" rounded-[8px] p-[15px] bg-white border-gray-200 border-[1px] shadow-md hover:shadow-lg transition-shadow">
                         <img
                             src={product.img}
                             alt={product.productName}
@@ -88,7 +90,7 @@ const SearchBar = ({ onSearchResults }) => {
                         <div className="flex items-center justify-between mt-[8px]">
                         <p className="text-sm text-gray-700 "> Delivery in {product.delivery} days</p>
                         <Link to={`/BuyNow/${product.id}`}>
-                          <span className=" ml-[30px] text-[0.8rem] text-gray-500 cursor-pointer hover:text-red-600 hover:transition-all hover:duration-300 hover:ease-in-out">Buy Now <i className="fa-solid fa-angles-right text-[0.8rem"></i></span>
+                          <span className=" ml-[30px] text-[0.8rem] text-gray-500 cursor-pointer hover:text-red-600 hover:transition-all hover:duration-300 hover:ease-in-out active:text-red-600">Buy Now <i className="fa-solid fa-angles-right text-[0.8rem"></i></span>
                         </Link>
                         </div>
                         </div>

@@ -4,13 +4,12 @@ import { usefulLinks } from "../utils/data";
 import logo from "../images/nivzone_transparent.png";
 
 const NivzoneFooter = () => {
-   return <section className="max-w-[1400px] mx-auto mt-[40px]">
-             <div className="flex md:flex-row flex-col bg-slate-800 md:h-[520px] h-[1300px]  ">
+   return <section className="max-w-[1450px] mx-auto mt-[40px]">
+             <div className="flex md:flex-row flex-col bg-slate-700 md:h-[520px] h-[1300px]  ">
                <div className="md:w-[20%] md:ml-[80px] ml-[20px] lg:ml-[120px] mt-[50px] md:mt-[100px]">
                    <div className="flex flex-col w-[120px]  my-[14px]  ">
-                                       <img src= {logo} className=" w-full object-cover object-center" alt="" />
-                                       
-                                   </div>       
+                        <img src= {logo} className=" w-full object-cover object-center" alt="" />
+                    </div>       
                    <p className="text-white  text-[0.9rem] ">Nivzone, a VS Enterprise, delivers premium products with a focus on , innovation, ensuring excellence and customer satisfaction in every purchase. With a commitment to innovation and reliability, we strive to deliver the best shopping experience.</p>
                </div>
                 <div className="text-white lg:w-[20%] md:w-[25%] md:block mt-[60px] md:ml-[70px] md:mt-[100px] ml-[20px]">
@@ -57,7 +56,7 @@ const NivzoneFooter = () => {
                     </div>
                     </div>
                     <div className="text-white bg-black md:h-[50px] h-[100px] flex md:flex-row flex-col items-center justify-between">
-                        <p className="text-[0.9rem] md:ml-[120px] text-center py-[10px]">Copyright© 2025. Nivzone All Rights Reserved. Designed by Vishal Singh</p>
+                        <p className="text-[0.9rem] md:ml-[120px] text-center py-[10px]">Copyright© 2025. Nivzone All Rights Reserved. Designed by VS</p>
                         <div className="md:mr-[140px] flex  items-center pb-[10px]">
                             <span className="text-white text-[0.9rem] font-semibold mr-[14px]">Follow Us:</span>
                             <span><i className="fa-brands fa-square-facebook text-blue-500 border-[1px] rounded-[6px] border-blue-4Name00 text-[2rem] bg-white hover:text-white hover:bg-blue-400 cursor-pointer  ml-[4px]"></i></span>

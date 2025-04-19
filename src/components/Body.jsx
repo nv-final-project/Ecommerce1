@@ -3,10 +3,14 @@ import NavBar from "./NavBar";
 import NivzoneFooter from "./NivzoneFooter";
 import { useEffect, useState } from "react";
 import { homeImage } from "../utils/data";
-
+import { useCart } from "./CartContext";
 
 
 const Body = () => {
+    const { cartSize } = useCart();
+
+    
+   
     const [bgImage, setBgImage] = useState(homeImage) 
     const location = useLocation()
     useEffect(() => {
@@ -16,10 +20,10 @@ const Body = () => {
         
     },[])
     return <>
-    <header  style={{'backgroundImage': `url(${bgImage})`}} className=" bg-cover bg-center md:h-[400px] h-[260px] max-w-[1400px] mx-auto ">
-        <NavBar bgImage = {bgImage} setBgImage= {setBgImage}/>
+    <header  style={{'backgroundImage': `url(${bgImage})`}} className=" bg-cover bg-center md:h-[400px] h-[260px] max-w-[1450px] mx-auto ">
+        <NavBar bgImage = {bgImage} setBgImage= {setBgImage} cartSize ={cartSize}/>
     </header>
-    <main>
+    <main >
         <Outlet/>
     </main>
     <footer>

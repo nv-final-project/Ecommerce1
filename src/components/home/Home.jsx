@@ -1,7 +1,7 @@
 import { useState } from "react";
 import BestDealsHome from "./BestDealsHome";
 import BestOfElectronics from "./BestOfElectronics";
-// import BestSellersHome from "./BestSellersHome";
+import BestSellersHome from "./BestSellersHome";
 import SearchBar from "./SearchBar";
 import TopStyles from "./TopStyles";
 
@@ -23,6 +23,7 @@ const Home = () => {
               <BestOfElectronics />
               <TopStyles />
               <BestDealsHome />
+              <BestSellersHome/>
             </>
           )}
         </>

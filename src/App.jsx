@@ -6,16 +6,17 @@ import Home from "./components/home/Home";
 import Fashion from "./components/Fashion";
 import BestDeals from "./components/BestDeals";
 import Electronics from "./components/Electronics";
-// import BestSellers from "./components/BestSellers";
+import BestSellers from "./components/BestSellers";
 import LoginPage from "./components/LoginPage";
-import SignUpPage from "./components/SignUpPage";
-// import ElectronicsHomeBuyNow from "./components/BuyNow/ElectronicsHomeBuyNow";
-// import TopStyleBuyNow from "./components/BuyNow/TopStylesBuyNow";
-// import BestDealsHomeBuyNow from "./components/BuyNow/BestDealsHomeBuyNow";
-// import ElectronicsBuyNow from "./components/BuyNow/ElectronicsBuyNow";
-// import FashionBuyNow from "./components/BuyNow/FashionBuyNow";
-import BestDealsBuyNow from "./components/BuyNow/BuyNowPage";
 import BuyNowPage from "./components/BuyNow/BuyNowPage";
+import Cart from "./components/Cart";
+import { CartProvider } from "./components/CartContext";
+import Disclaimer from "./components/usefulLinks/Disclaimer";
+import PrivacyPolicy from "./components/usefulLinks/PrivacyPolicy";
+import RefundPolicy from "./components/usefulLinks/RefundPolicy";
+import CookiePolicy from "./components/usefulLinks/CookiePolicy";
+import TermsAndCondition from "./components/usefulLinks/TermsAndCondition";
+import DataProtectionPolicy from "./components/usefulLinks/DataProtectionPolicy";
 
 
 // const App = () => {
@@ -44,10 +45,34 @@ const rout = createBrowserRouter([
                 path: '/BestDeals',
                 element: <BestDeals/>
             },
-            // {
-            //     path: '/BestSellers',
-            //     element: <BestSellers/>
-            // }
+            {
+                path: '/BestSellers',
+                element: <BestSellers/>
+            },
+            {
+                path: '/Disclaimer',
+                element: <Disclaimer/>
+            },
+            {
+                path: '/PrivacyPolicy',
+                element: <PrivacyPolicy/>
+            },
+            {
+                path: '/RefundPolicy',
+                element: <RefundPolicy/>
+            },
+            {
+                path: '/CookiePolicy',
+                element: <CookiePolicy/>
+            },
+            {
+                path: '/TermsAndCondition',
+                element: <TermsAndCondition/>
+            },
+            {
+                path: '/DataProtectionPolicy',
+                element: <DataProtectionPolicy/>
+            },
         ]
     },
     {
@@ -55,35 +80,21 @@ const rout = createBrowserRouter([
         element: <LoginPage/>
     },
     {
-        path: '/SignUp',
-        element: <SignUpPage/>
-    },
-    // {
-    //     path: '/BuyNow/ElectronicsHome/:id',  
-    //     element: <ElectronicsHomeBuyNow/>
-    //  },
-    // {
-    //     path: '/BuyNow/TopStyles/:id',  
-    //     element: <TopStyleBuyNow/>
-    //  },
-    // {
-    //     path: '/BuyNow/BestDealsHome/:id',  
-    //     element: <BestDealsHomeBuyNow/>
-    //  },
-    // {
-    //     path: '/BuyNow/Electronics/:id',  
-    //     element: <ElectronicsBuyNow/>
-    //  },
-    // {
-    //     path: '/BuyNow/Fashion/:id',  
-    //     element: <FashionBuyNow/>
-    //  },
-    {
         path: '/BuyNow/:id',  
         element: <BuyNowPage/>
+     },
+    {
+        path: '/Cart',  
+        element: <Cart/>
      },
      
 ])
 
 const root = createRoot(document.getElementById("root"))
-root.render(<RouterProvider router= {rout}></RouterProvider>)
+root.render(
+  <React.StrictMode>
+    <CartProvider>
+      <RouterProvider router={rout} />
+    </CartProvider>
+  </React.StrictMode>
+);

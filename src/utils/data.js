@@ -1,12 +1,12 @@
-export const navHeading = ['Home', 'Electronics', 'Fashion','Best Deals',  'Login']
+export const navHeading = ['Home', 'Electronics', 'Fashion','Best Deals', "Best Sellers",  'Login']
 
-export const usefulLinks = ['Cookie Policy', 'Data Protection Policy', 'Disclaimer', 'Refund Policy', 'Privacy Policy', 'Terms And Condition', 'SiteMap']
+export const usefulLinks = ['Cookie Policy', 'Data Protection Policy', 'Disclaimer', 'Refund Policy', 'Privacy Policy', 'Terms And Condition']
 
 export const homeImage = 'https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?q=80&w=2388&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
 
 export const electronicsImage = 'https://img.freepik.com/premium-photo/collection-electronic-devices-including-laptop-phone-ipod_1065421-12202.jpg?w=1380'
 
-export const fashionImage = 'https://img.freepik.com/free-photo/full-shot-woman-taking-selfie_23-2149153257.jpg?t=st=1743920838~exp=1743924438~hmac=7c7ac86ef9ec4c7697b7915a3f96b2436082ae3f709d17f1234e9c4aca31d582&w=1380'
+export const fashionImage = 'https://img.freepik.com/free-photo/full-shot-woman-taking-selfie_23-2149153257.jpg?t=st=1744881410~exp=1744885010~hmac=9094433fa652148024e3f9a7585838b919a9e63ad93ab4e9a535a79cbaebd64c&w=1380'
 
 export const bestDealsImage = 'https://img.freepik.com/free-vector/elegance-banner-sales-black-friday-template_1035-17538.jpg?t=st=1743921860~exp=1743925460~hmac=2b37bd45f22f1bcfca6a556a2a6ecc8a8ee91700412158e3933291d8d31d5d71&w=1380'
 
@@ -186,26 +186,44 @@ export const bestDealsHome =  [
 
 export const bestSellersHome = [
     {
-        id:  "bestSellersHome1",
-        productName: 'Keto Vegan Protein Shake',
-        img: 'https://images.unsplash.com/photo-1652769749021-1360a2be480e?q=80&w=1473&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-        discount: '5-15',
-        price: '1,499'
-    },
-    {
-        id:  "bestSellersHome2",
-        productName: 'Sony Frost Edge 500 Refrigerator',
-        img: 'https://img.freepik.com/free-vector/red-black-open-refrigerator-with-products_1284-23311.jpg?t=st=1744106277~exp=1744109877~hmac=d82205f8110fb662e45308713f90bc024e12e92e692c26da171ae5f80d8f913a&w=740',
-        discount: '30-55',
-        price: '14,599'
-    },
-    {
-        id:  "bestSellersHome3",
-        productName: 'Women Checkmate Classic Rayon Coat ',
-        img: 'https://img.freepik.com/free-photo/attractive-young-woman-walking-autumn-wearing-coat_285396-11069.jpg?t=st=1744106691~exp=1744110291~hmac=52a66c524e9c7609343155e1d6642f3d838d719490db645f188ea9b7222c5402&w=740',
-        discount: '25-50',
-        price: '3,099'
-    },
+        id: "bestSellersPage1",
+        productName: "Keto Vegan Protein Shake",
+        img: "https://images.unsplash.com/photo-1652769749021-1360a2be480e?q=80&w=1473&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        discount: "5-15",
+        price: "1,799",
+        productFeature: "(Chocolate Flavor, 500g, High Protein, Low Carb, Vegan-Friendly, Non-GMO, Gluten-Free)",
+        ratings: "4.5★",
+        reviews: "1,20,345 Ratings & 45,234 Reviews",
+        discountPrice: "1,124",
+        specialDiscount: 5,
+        delivery: "2-4",
+      },
+      {
+        id: "bestSellersPage2",
+        productName: "Sony Frost Edge 500 Refrigerator",
+        img: "https://img.freepik.com/free-vector/red-black-open-refrigerator-with-products_1284-23311.jpg?t=st=1744106277~exp=1744109877~hmac=d82205f8110fb662e45308713f90bc024e12e92e692c26da171ae5f80d8f913a&w=740",
+        discount: "30-55",
+        price: "14,599",
+        productFeature: "(500L, Double Door, Inverter Compressor, Frost-Free, Energy Efficient, Red-Black Finish)",
+        ratings: "4.2★",
+        reviews: "2,45,678 Ratings & 53,678 Reviews",
+        discountPrice: "10,219",
+        specialDiscount: 30,
+        delivery: "5-7",
+      },
+      {
+        id: "bestSellersPage3",
+        productName: "Women Checkmate Classic Rayon Coat",
+        img: "https://img.freepik.com/free-photo/attractive-young-woman-walking-autumn-wearing-coat_285396-11069.jpg?t=st=1744106691~exp=1744110291~hmac=52a66c524e9c7609343155e1d6642f3d838d719490db645f188ea9b7222c5402&w=740",
+        discount: "25-50",
+        price: "3,099",
+        productFeature: "(Medium, Rayon Fabric, Checkered Pattern, Autumn-Winter, Breathable Lining, Classic Fit)",
+        ratings: "4.4★",
+        reviews: "3,23,456 Ratings & 59,345 Reviews",
+        discountPrice: "2,324",
+        specialDiscount: 25,
+        delivery: "3-5",
+      },
 ];
 
 export const electronicsPage = [
@@ -502,7 +520,7 @@ export const fashionPage = [
     {
         id: 'Fashion11',
         productName: 'Men Classic Black Two-Piece Suit',
-        img: 'https://img.freepik.com/free-photo/close-up-photo-young-successful-business-man-black-suit_171337-9509.jpg?t=st=1744365910~exp=1744369510~hmac=b1fe8642e09cf5ec14c72a6e509eca0b115e1555ed34c6b4129eabb7a500f70a&w=1380',
+        img: 'https://images.unsplash.com/photo-1603122101829-e56305b0a5f7?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         discount: '15-35',
         price: '9,299',
         productFeature: "(Black, Two-Piece Formal Suit, Premium Fabric, Slim Fit Blazer & Trousers, Perfect for Business & Formal Events)",
@@ -674,13 +692,13 @@ export const bestDealsPage = [
     {
         id: 'bestDeals12',
         productName: 'The Midtown Classic Women Coat',
-        img: 'https://img.freepik.com/free-photo/woman-coat-with-phone_130"3-5"753.jpg?t=st=1744368303~exp=1744371903~hmac=25f2617cb8bfd58e8c85b8b0674430cee6a2ba2f094646a12389577c71cd9a13&w=1380',
+        img: 'https://img.freepik.com/free-photo/gorgeous-stylish-girl-coat-arrogantly-looking-camera-standing-cozy-autumn-street_574295-1871.jpg?t=st=1744875627~exp=1744879227~hmac=8b0af2656df640bb9b6ea68ac0950b821d6e366fde70f21814b74a75eae2f01f&w=996',
         discount: '20-30',
-        price: '9,299',
-        productFeature: '(Gray, Midtown Classic Coat, Wool Blend, Double-Breasted, Belted Waist, Ideal for Winter Chic Look)',
+        price: '10,299',
+        productFeature: '(Black, Midtown Classic Coat, Wool Blend, Double-Breasted, Belted Waist, Ideal for Winter Chic Look)',
         ratings: '4.7★',
         reviews: '6,42,567 Ratings & 53,604 Reviews',
-        discountPrice: '7,439',
+        discountPrice: '8,439',
         specialDiscount: 20,
         delivery: "3-6",
     }
@@ -690,88 +708,171 @@ export const bestDealsPage = [
 
 export const bestSellersPage = [
     {
-        id:  "bestSellersPage1",
-        productName: 'Keto Vegan Protein Shake',
-        img: 'https://images.unsplash.com/photo-1652769749021-1360a2be480e?q=80&w=1473&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-        discount: '5-15',
-        price: '1,499'
+      id: "bestSellersPage1",
+      productName: "Keto Vegan Protein Shake",
+      img: "https://images.unsplash.com/photo-1652769749021-1360a2be480e?q=80&w=1473&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      discount: "5-15",
+      price: "1,799",
+      productFeature: "(Chocolate Flavor, 500g, High Protein, Low Carb, Vegan-Friendly, Non-GMO, Gluten-Free)",
+      ratings: "4.5★",
+      reviews: "1,20,345 Ratings & 45,234 Reviews",
+      discountPrice: "1,124",
+      specialDiscount: 5,
+      delivery: "2-4",
     },
     {
-        id:  "bestSellersPage2",
-        productName: 'Sony Frost Edge 500 Refrigerator',
-        img: 'https://img.freepik.com/free-vector/red-black-open-refrigerator-with-products_1284-23311.jpg?t=st=1744106277~exp=1744109877~hmac=d82205f8110fb662e45308713f90bc024e12e92e692c26da171ae5f80d8f913a&w=740',
-        discount: '30-55',
-        price: '14,599'
+      id: "bestSellersPage2",
+      productName: "Sony Frost Edge 500 Refrigerator",
+      img: "https://img.freepik.com/free-vector/red-black-open-refrigerator-with-products_1284-23311.jpg?t=st=1744106277~exp=1744109877~hmac=d82205f8110fb662e45308713f90bc024e12e92e692c26da171ae5f80d8f913a&w=740",
+      discount: "30-55",
+      price: "14,599",
+      productFeature: "(500L, Double Door, Inverter Compressor, Frost-Free, Energy Efficient, Red-Black Finish)",
+      ratings: "4.2★",
+      reviews: "2,45,678 Ratings & 53,678 Reviews",
+      discountPrice: "10,219",
+      specialDiscount: 30,
+      delivery: "5-7",
     },
     {
-        id:  "bestSellersPage3",
-        productName: 'Women Checkmate Classic Rayon Coat ',
-        img: 'https://img.freepik.com/free-photo/attractive-young-woman-walking-autumn-wearing-coat_285396-11069.jpg?t=st=1744106691~exp=1744110291~hmac=52a66c524e9c7609343155e1d6642f3d838d719490db645f188ea9b7222c5402&w=740',
-        discount: '25-50',
-        price: '3,099'
+      id: "bestSellersPage3",
+      productName: "Women Checkmate Classic Rayon Coat",
+      img: "https://img.freepik.com/free-photo/attractive-young-woman-walking-autumn-wearing-coat_285396-11069.jpg?t=st=1744106691~exp=1744110291~hmac=52a66c524e9c7609343155e1d6642f3d838d719490db645f188ea9b7222c5402&w=740",
+      discount: "25-50",
+      price: "3,099",
+      productFeature: "(Medium, Rayon Fabric, Checkered Pattern, Autumn-Winter, Breathable Lining, Classic Fit)",
+      ratings: "4.4★",
+      reviews: "3,23,456 Ratings & 59,345 Reviews",
+      discountPrice: "2,324",
+      specialDiscount: 25,
+      delivery: "3-5",
     },
     {
-        id:  "bestSellersPage4",
-        productName: 'LG Smart TV',
-        img: 'https://www.lg.com/content/dam/channel/wcms/in/images/tvs/32lq643bpta_atrq_eail_in_c/gallery/32LQ643bpta-DZ-1.jpg',
-        discount: '20-55',
-        price: '42,999'
+      id: "bestSellersPage4",
+      productName: "Sony PlayStation 5 Disc Edition",
+      img: "https://images-cdn.ubuy.co.in/64dab58344ea7d75fe319427-sony-playstation-5-video-game-console.jpg",
+      discount: "10-20",
+      price: "54,990",
+      productFeature: "(Standard, 825GB SSD, White/Black, 4K Blu-ray Drive, DualSense Controller, Ultra-High Speed SSD, Haptic Feedback)",
+      ratings: "4.6★",
+      reviews: "5,12,000 Ratings & 59,500 Reviews",
+      discountPrice: "43,992",
+      specialDiscount: 20,
+      delivery: "3-7",
     },
     {
-        id:  "bestSellersPage5",
-        productName: 'Polka Dot Elegance Women Dress',
-        img: 'https://img.freepik.com/free-photo/charming-young-photographer-with-brunette-wavy-hair-beret-white-top-red-shirt-polka-dot-skirt-standing-street-near-cafe-looking-away_197531-24484.jpg?t=st=1744370389~exp=1744373989~hmac=becd88a2dd6ec8c013391e8ececabf54653fef0aa8980cbcd12946d084a903d7&w=1380',
-        discount: '20-40',
-        price: '7,999'
+      id: "bestSellersPage5",
+      productName: "Polka Dot Elegance Women Dress",
+      img: "https://img.freepik.com/free-photo/charming-young-photographer-with-brunette-wavy-hair-beret-white-top-red-shirt-polka-dot-skirt-standing-street-near-cafe-looking-away_197531-24484.jpg?t=st=1744370389~exp=1744373989~hmac=becd88a2dd6ec8c013391e8ececabf54653fef0aa8980cbcd12946d084a903d7&w=1380",
+      discount: "20-40",
+      price: "7,999",
+      productFeature: "(Small, Cotton Blend, Polka Dot Pattern, Summer-Friendly, Flared Design, Breathable)",
+      ratings: "4.3★",
+      reviews: "2,34,567 Ratings & 37,456 Reviews",
+      discountPrice: "6,399",
+      specialDiscount: 20,
+      delivery: "3-5",
     },
     {
-        id:  "bestSellersPage6",
-        productName: 'Rangoli Radiance Saree',
-        img: 'https://images.unsplash.com/photo-1610189337543-1c5d8e64f574?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-        discount: '10-20',
-        price: '8,999'
+      id: "bestSellersPage6",
+      productName: "Classic Urban Trench Coat",
+      img: "https://img.freepik.com/free-photo/pretty-young-woman-near-old-fashion-door-wearing-black-hat-coat-street_231208-10615.jpg?t=st=1744875812~exp=1744879412~hmac=b587ff66e77fc03e9c7389426575e7c1881563b5dbf51fd15690692fafbe08ea&w=996",
+      discount: "15-25",
+      price: "7,499",
+      productFeature: "(Medium, Cotton Blend, Beige Finish, Water-Resistant, Adjustable Cuffs, Button Closure, Autumn-Ready)",
+      ratings: "4.4★",
+      reviews: "2,47,432 Ratings & 38,543 Reviews",
+      discountPrice: "6,174",
+      specialDiscount: 15,
+      delivery: "3-5",
     },
     {
-        id:  "bestSellersPage7",
-        productName: 'Royal Raga Saree',
-        img: 'https://images.unsplash.com/photo-1610189012906-4c0aa9b9781e?q=80&w=2348&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-        discount: '10-20',
-        price: '7,499'
+      id: "bestSellersPage7",
+      productName: "Emerald City Wrap Dress",
+      img: "https://img.freepik.com/free-photo/beautiful-curly-ginger-woman-with-red-lips-posing-outdoor-warm-spring-day_273443-331.jpg?t=st=1744876131~exp=1744879731~hmac=3b6b2b858288f62a3ceceea4e09af886024f63420b501cbe57cc517ac79f8c59&w=996",
+      discount: "20-30",
+      price: "6,799",
+      productFeature: "(Medium, Polyester Blend, Green Patterned, Cold-Shoulder Design, Tie Waist, Flowy Sleeves, Travel-Friendly)",
+      ratings: "4.5★",
+      reviews: "4,18,765 Ratings & 56,876 Reviews",
+      discountPrice: "5,439",
+      specialDiscount: 20,
+      delivery: "3-5",
     },
     {
-        id:  "bestSellersPage8",
-        productName: 'Tropical Treasure Fruit Basket',
-        img: 'https://assets.oyegifts.com/flowers-n-gifts/vendordata/product/5-kg-small-fresh-fruits-basket.jpg',
-        discount: '20-25',
-        price: '1,999'
+      id: "bestSellersPage8",
+      productName: "Tropical Treasure Fruit Basket",
+      img: "https://assets.oyegifts.com/flowers-n-gifts/vendordata/product/5-kg-small-fresh-fruits-basket.jpg",
+      discount: "20-25",
+      price: "1,999",
+      productFeature: "(5kg, Mixed Fruits, Freshly Packed, Seasonal Selection, Gift-Wrapped, Organic)",
+      ratings: "4.1★",
+      reviews: "6,55,765 Ratings & 45,876 Reviews",
+      discountPrice: "1,599",
+      specialDiscount: 20,
+      delivery: "2-3",
     },
     {
-        id:  "bestSellersPage9",
-        productName: 'BlazeRider Helmet',
-        img: 'https://img.freepik.com/free-photo/motorcycle-safety-helmet_23-2151531221.jpg?t=st=1744436149~exp=1744439749~hmac=7dce86d6a59da043d38aed68ccf3810c3beda6825990cb69dd354f5da38ad369&w=1380',
-        discount: '25-30',
-        price: '1,199'
+      id: "bestSellersPage9",
+      productName: "BlazeRider Helmet",
+      img: "https://img.freepik.com/free-photo/motorcycle-safety-helmet_23-2151531221.jpg?t=st=1744436149~exp=1744439749~hmac=7dce86d6a59da043d38aed68ccf3810c3beda6825990cb69dd354f5da38ad369&w=1380",
+      discount: "25-30",
+      price: "1,199",
+      productFeature: "(Full-Face, Matte Black, ISI Certified, Anti-Scratch Visor, Lightweight, Ventilated)",
+      ratings: "4.4★",
+      reviews: "5,10,987 Ratings & 56,098 Reviews",
+      discountPrice: "899",
+      specialDiscount: 25,
+      delivery: "2-4",
     },
     {
-        id:  "bestSellersPage10",
-        productName: 'CyberZen Battlestation Gaming PC',
-        img: 'https://images.unsplash.com/photo-1696710240292-05aad88b94b8?q=80&w=2232&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-        discount: '10-20',
-        price: '44,999'
+      id: "bestSellersPage10",
+      productName: "CyberZen Battlestation Gaming PC",
+      img: "https://images.unsplash.com/photo-1696710240292-05aad88b94b8?q=80&w=2232&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fEVufDB8fHx8fA%3D%3D",
+      discount: "10-20",
+      price: "44,999",
+      productFeature: "(Intel i7, 16GB RAM, 1TB SSD, RTX 3060, RGB Lighting, Liquid Cooling, Windows 11)",
+      ratings: "4.8★",
+      reviews: "1,97,890 Ratings & 34,789 Reviews",
+      discountPrice: "40,499",
+      specialDiscount: 10,
+      delivery: "5-7",
     },
     {
-        id:  "bestSellersPage11",
-        productName: 'Girls Winter Whisper Coat',
-        img: 'https://images.unsplash.com/photo-1484329081568-bed9ba42793d?q=80&w=2346&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-        discount: '25-35',
-        price: '7,999'
+      id: "bestSellersPage11",
+      productName: "Girls Winter Whisper Coat",
+      img: "https://images.unsplash.com/photo-1484329081568-bed9ba42793d?q=80&w=2346&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fEVufDB8fHx8fA%3D%3D",
+      discount: "25-35",
+      price: "7,999",
+      productFeature: "(Small, Wool Blend, Winter Warmth, Hooded Design, Soft Lining, Stylish Fit)",
+      ratings: "4.3★",
+      reviews: "3,29,654 Ratings & 42,965 Reviews",
+      discountPrice: "5,999",
+      specialDiscount: 25,
+      delivery: "3-5",
     },
     {
-        id:  "bestSellersPage12",
-        productName: 'Red Raga Silk Saree',
-        img: 'https://images.unsplash.com/photo-1618901185975-d59f7091bcfe?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-        discount: '15-20',
-        price: '11,499'
-    }
-];
+      id: "bestSellersPage12",
+      productName: "Red Raga Silk Saree",
+      img: "https://images.unsplash.com/photo-1618901185975-d59f7091bcfe?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fEVufDB8fHx8fA%3D%3D",
+      discount: "15-20",
+      price: "11,499",
+      productFeature: "(Pure Silk, Red-Gold, Handwoven, Festive Design, Elegant Drape, 5.5m Length)",
+      ratings: "4.6★",
+      reviews: "4,21,345 Ratings & 45,134 Reviews",
+      discountPrice: "9,774",
+      specialDiscount: 15,
+      delivery: "3-6",
+    },
+  ];
 
+
+  export const allProducts = [
+    ...bestDealsPage,
+    ...electronicsPage,
+    ...fashionPage,
+    ...bestOfElectronicsHome,
+    ...topStylesHome,
+    ...bestDealsHome,
+    ...bestSellersHome,
+    ...bestSellersPage,
+  ];
